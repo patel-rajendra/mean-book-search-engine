@@ -178,14 +178,14 @@ const SearchBooks = () => {
                         : 'Save this Book!'}
                     </Button>
                   )}
-                  <a
+                  {/* <a
                     target="_blank"
                     rel="noreferrer noopener"
                     id="link"
                     href={book.link}
                   >
                     {book.link == null ? 'No link available' : 'Link to google'}
-                  </a>
+                  </a> */}
                 </Card.Body>
               </Card>
             );
